@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainwish"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.appventas2.wishlist">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:text="WishList"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <!--<ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="315dp"
+
+        android:layout_height="529dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="MissingConstraints"
+        tools:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            &lt;!&ndash; cancion 1 &ndash;&gt;
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p1_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p1_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p1_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            &lt;!&ndash; cancion 1 &ndash;&gt;
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p2_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p2_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p2_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p3_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p3_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p3_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p4_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p4_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p4_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p5_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p5_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p5_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p6_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p6_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p6_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p7_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p7_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p7_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p8_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p8_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p8_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    &lt;!&ndash; Primer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p9_nom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="nombre_producto"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Segundo TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p9_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="precio"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    &lt;!&ndash; Tercer TextView &ndash;&gt;
+                    <TextView
+                        android:id="@+id/p9_cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="categoria"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProductos"
+        android:layout_width="315dp"
+        android:layout_height="528dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453"
+        />
+
+
+    <Button
+        android:id="@+id/volverwish"
+        android:layout_width="61dp"
+        android:layout_height="32dp"
+        android:text="Volver"
+        android:backgroundTint="#6200EE"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
